@@ -107,20 +107,6 @@ Planned documentation includes:
 
 ---
 
-# 👨‍💻 Development Workflow
-
-```bash
-# Stage changes
-git add .
-
-# Commit changes
-git commit -m "your message"
-
-# Push updates
-git push
-```
-
----
 
 # 📜 License
 
