@@ -1,0 +1,38 @@
+export const mockData = {
+  hotels: [
+    { id: 'H1', name: 'Grand Taj Hotel', location: 'Colaba, Mumbai', revenue: 1250000, profit: 450000, occupancy: 88, status: 'Active' },
+    { id: 'H2', name: 'The Azure Resort', location: 'Goa', revenue: 2100000, profit: 850000, occupancy: 92, status: 'Active' },
+    { id: 'H3', name: 'Metro Inn', location: 'Andheri East', revenue: 450000, profit: 120000, occupancy: 65, status: 'Active' },
+    { id: 'H4', name: 'Sapphire Suites', location: 'Banjara Hills, HYD', revenue: 1750000, profit: 600000, occupancy: 81, status: 'Active' },
+    { id: 'H5', name: 'Oasis Boutique', location: 'Connaught Place, DEL', revenue: 950000, profit: 320000, occupancy: 78, status: 'Pending' },
+    { id: 'H6', name: 'Crescent Hotel', location: 'Airport Road, BLR', revenue: 1100000, profit: 380000, occupancy: 85, status: 'Active' },
+    { id: 'H7', name: 'Heritage Stay', location: 'Jaipur', revenue: 650000, profit: 180000, occupancy: 70, status: 'Active' },
+    { id: 'H8', name: 'Skyline Heights', location: 'BKC, Mumbai', revenue: 2800000, profit: 1150000, occupancy: 95, status: 'Active' },
+    { id: 'H9', name: 'The Cozy Corner', location: 'Koramangala, BLR', revenue: 350000, profit: 80000, occupancy: 55, status: 'Pending' },
+    { id: 'H10', name: 'Luxe Peninsula', location: 'Marine Drive', revenue: 3200000, profit: 1400000, occupancy: 98, status: 'Active' },
+  ],
+  pgs: [
+    { id: 'P1', name: 'Sunrise Boys PG', location: 'North Campus, DEL', revenue: 150000, profit: 80000, occupancy: 100, status: 'Active' },
+    { id: 'P2', name: 'Elite Girls Hostel', location: 'Koramangala, BLR', revenue: 220000, profit: 120000, occupancy: 95, status: 'Active' },
+    { id: 'P3', name: 'Comfort Stay PG', location: 'Hitech City, HYD', revenue: 180000, profit: 90000, occupancy: 85, status: 'Active' },
+    { id: 'P4', name: 'Downtown Coliv', location: 'Viman Nagar, PUNE', revenue: 350000, profit: 180000, occupancy: 90, status: 'Active' },
+    { id: 'P5', name: 'Nest Co-living', location: 'Whitefield, BLR', revenue: 280000, profit: 140000, occupancy: 80, status: 'Pending' },
+    { id: 'P6', name: 'Scholars PG', location: 'Kota, RJ', revenue: 120000, profit: 50000, occupancy: 100, status: 'Active' },
+    { id: 'P7', name: 'Urban Pods', location: 'Indiranagar, BLR', revenue: 420000, profit: 220000, occupancy: 92, status: 'Active' },
+    { id: 'P8', name: 'Harmony Homes', location: 'Salt Lake, KOL', revenue: 190000, profit: 85000, occupancy: 75, status: 'Active' },
+    { id: 'P9', name: 'The Hive', location: 'Sector 62, NOIDA', revenue: 250000, profit: 110000, occupancy: 88, status: 'Pending' },
+    { id: 'P10', name: 'Zenith PG', location: 'Navrangpura, AMD', revenue: 160000, profit: 70000, occupancy: 70, status: 'Active' },
+  ],
+  restaurants: [
+    { id: 'R1', name: 'The Spice Grill', location: 'CP, New Delhi', revenue: 850000, profit: 250000, occupancy: 75, status: 'Active' },
+    { id: 'R2', name: 'Ocean Catch', location: 'Bandra West, MUM', revenue: 1200000, profit: 420000, occupancy: 85, status: 'Active' },
+    { id: 'R3', name: 'Bella Pasta', location: 'Kala Ghoda, MUM', revenue: 650000, profit: 180000, occupancy: 90, status: 'Active' },
+    { id: 'R4', name: 'Urban Burger', location: 'Koramangala, BLR', revenue: 450000, profit: 120000, occupancy: 95, status: 'Active' },
+    { id: 'R5', name: 'Saffron Lounge', location: 'Jubilee Hills, HYD', revenue: 950000, profit: 300000, occupancy: 80, status: 'Pending' },
+    { id: 'R6', name: 'Green Leaf Vegan', location: 'Auroville', revenue: 550000, profit: 160000, occupancy: 70, status: 'Active' },
+    { id: 'R7', name: 'Taco Fiesta', location: 'Koregaon Park, PUNE', revenue: 380000, profit: 100000, occupancy: 88, status: 'Active' },
+    { id: 'R8', name: 'The Steakhouse', location: 'Cyber Hub, GGN', revenue: 1800000, profit: 650000, occupancy: 92, status: 'Active' },
+    { id: 'R9', name: 'Bistro 24', location: 'Park Street, KOL', revenue: 720000, profit: 210000, occupancy: 78, status: 'Pending' },
+    { id: 'R10', name: 'Cloud Kitchen Hub', location: 'Powai, MUM', revenue: 1500000, profit: 550000, occupancy: 100, status: 'Active' },
+  ]
+};
