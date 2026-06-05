@@ -1,130 +1,213 @@
 # BizNest
 
-BizNest is a scalable business management and analytics platform designed to help businesses streamline operations, monitor performance, and leverage intelligent automation for growth.
+BizNest is a full-stack Business Management & Analytics Platform designed for Hotels, PGs/Hostels, and Restaurants.
 
-The platform focuses on providing centralized tools for business insights, operational management, reporting, and AI-assisted decision support through a modern full-stack architecture.
-
----
-
-# 🚀 Project Vision
-
-Many small and medium-sized businesses struggle with fragmented tools, poor analytics visibility, and complex digital management systems.
-
-BizNest aims to provide:
-- Centralized business management
-- Actionable analytics dashboards
-- Intelligent automation tools
-- Scalable multi-business support
-- AI-powered operational insights
+The platform centralizes operations, analytics, reporting, and AI-powered business intelligence into a single dashboard, helping businesses make smarter operational decisions.
 
 ---
 
-# 🛠️ Tech Stack
+## 🚀 Key Features
 
-## Frontend
-- React.js / Next.js
+### Business Management
+
+- Room & Occupancy Management
+- Tenant & Customer Tracking
+- Booking Management
+- Role-Based Access Control
+- Secure Authentication System
+
+### Analytics Dashboard
+
+- Revenue Tracking
+- Occupancy Monitoring
+- Business Performance KPIs
+- Real-Time Operational Insights
+
+### AI-Powered Intelligence
+
+- Customer Sentiment Analysis
+- Revenue Forecasting
+- Occupancy Forecasting
+- Business Health Scoring
+- Automated Business Recommendations
+- Interactive AI Chatbot Assistant
+
+---
+
+## 🧠 AI Capabilities
+
+BizNest includes a dedicated Python AI microservice providing:
+
+### Sentiment Analysis
+
+Analyzes customer reviews using VADER NLP.
+
+Example:
+
+> "Staff was excellent and rooms were spotless"
+
+Output:
+
+- Positive
+- Sentiment Score
+- Business Insight
+
+### Revenue Forecasting
+
+Uses Linear Regression and historical business data to forecast future revenue trends.
+
+### Occupancy Forecasting
+
+Predicts future occupancy levels using booking history.
+
+### Business Health Score
+
+Evaluates overall business performance using:
+
+- Revenue Growth
+- Occupancy
+- Customer Sentiment
+
+### Recommendation Engine
+
+Generates actionable business improvement suggestions based on operational performance.
+
+---
+
+## 🛠️ Technology Stack
+
+### Frontend
+
+- React.js
+- React Router
 - Tailwind CSS
+- Axios
+- React Icons
 
-## Backend
+### Backend
+
 - Node.js
 - Express.js
-
-## Database
-- MongoDB
-
-## AI & Analytics Services
-- Python
-- FastAPI
-
-## DevOps & Tools
-- Git & GitHub
-- REST APIs
 - JWT Authentication
+- REST APIs
+
+### Database
+
+- MongoDB
+- Mongoose
+
+### AI Service
+
+- Python
+- Flask
+- Pandas
+- NumPy
+- Scikit-Learn
+- VADER Sentiment
+
+### Development Tools
+
+- Git
+- GitHub
+- VS Code
+- Postman
 
 ---
 
-# 📂 Project Structure
+## 📂 Project Structure
 
-```bash
+```text
 biznest/
 │
-├── frontend/        # Frontend application
-├── backend/         # Backend APIs and services
-├── docs/            # Project documentation
+├── frontend/
+│   ├── src/
+│   ├── public/
+│
+├── backend/
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   ├── middleware/
+│
+├── ai-service/
+│   ├── app.py
+│   ├── chatbot_engine.py
+│   ├── sentiment_engine.py
+│   ├── analytics_engine.py
+│   ├── prediction_engine.py
+│   ├── occupancy_forecast.py
+│   ├── recommendation_engine.py
+│   ├── business_health_engine.py
+│
+├── docs/
 │
 ├── README.md
-├── .gitignore
-└── LICENSE
+└── .gitignore
 ```
 
 ---
 
-# 📌 Current Status
+## 📊 Current Project Status
 
-The project is currently in the architecture planning and foundational setup phase.
+### Completed
 
-Current progress includes:
-- Repository initialization
-- System architecture planning
-- Documentation setup
-- Development roadmap creation
+- Modern Landing Website
+- Authentication System
+- Role-Based Architecture
+- Dashboard Layout
+- MongoDB Integration
+- AI Microservice Setup
+- Sentiment Analysis Engine
+- Revenue Forecast Engine
+- Occupancy Forecast Engine
+- Business Health Engine
+- Recommendation Engine
+- AI Chatbot Integration
 
----
+### In Progress
 
-# 🎯 Planned Features
-
-- Business Dashboard
-- Analytics & Reporting
-- Multi-Business Management
-- Role-Based Access Control
-- AI-Powered Insights
-- Automation Workflows
-- Data Visualization
-- Export & Reporting System
-
----
-
-# 🧠 Long-Term Goals
-
-- AI-driven business recommendations
-- Predictive analytics integration
-- Smart automation pipelines
-- Cloud deployment & scalability
-- Enterprise-ready architecture
+- Dashboard Module Expansion
+- Analytics Visualization
+- Advanced Reporting
 
 ---
 
-# 📖 Documentation
+## 🎯 Future Enhancements
 
-Detailed project documentation is available inside the `/docs` directory.
-
-Planned documentation includes:
-- System Architecture
-- API Planning
-- Database Design
-- Development Roadmap
-- Deployment Strategy
-
----
-
-
-# 📜 License
-
-This project is currently under development and intended for academic and learning purposes.
+- Multi-Tenant SaaS Architecture
+- Advanced Predictive Analytics
+- Automated Report Generation
+- Cloud Deployment
+- Notification System
+- Mobile Application
+- AI Business Strategy Assistant
 
 ---
 
-# 🤝 Contributors
+## 👨‍💻 Contributors
 
-- Himanshu Jha
-- Project Team Members
+### Himanshu Jha
+
+Full Stack Developer
+
+Project Owner & Lead Developer
 
 ---
 
-# ⭐ Repository Goals
+## 📜 License
 
-This repository is intended to demonstrate:
-- Full-stack system design
-- Scalable project architecture
-- Professional development practices
-- Collaborative software engineering workflow
+This project was developed for academic learning, software engineering practice, and full-stack application development.
+
+---
+
+## ⭐ Project Goals
+
+This repository demonstrates:
+
+- Full-Stack MERN Development
+- AI Integration with Business Applications
+- REST API Architecture
+- Role-Based Authentication
+- Business Analytics Systems
+- Modern UI/UX Design
+- Software Engineering Best Practices
